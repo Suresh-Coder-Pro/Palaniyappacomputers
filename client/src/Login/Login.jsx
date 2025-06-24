@@ -12,7 +12,6 @@ const Login = ({ onLogin }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  console.log("API URL:", API_URL); // Debugging API URL
 
   const handleLogin = async (e) => {
     e.preventDefault();
